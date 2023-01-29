@@ -1,0 +1,31 @@
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*@font-face {
+	font-family: "BorderFont";
+	src: url('./Fonts/Border.ttf');
+}*/
+
+//GLOBAL
+@import "../base/config.scss";
+@import "../base/variable.scss";
+
+//APP
+@import "../app/app.scss";
+
+//COMPONENTS
+@import "./components/header.scss";
+@import "./components/home.scss";
+@import "./components/meme.scss";
+
+
+//DEFAULT
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}

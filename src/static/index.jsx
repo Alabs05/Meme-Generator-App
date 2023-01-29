@@ -1,0 +1,1 @@
+export {imgSrc} from "./src"

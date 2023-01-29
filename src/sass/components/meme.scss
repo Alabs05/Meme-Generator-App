@@ -1,0 +1,38 @@
+.meme {
+	width: 400px;
+	margin-bottom: 20px; 
+	/*border: 1px solid red;*/
+
+	&_top {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 8%;
+
+		&Left { @extend #inputAll; }
+		&Right { @extend #inputAll; }
+	}
+	&_mid {
+		margin-top: 4%;
+		button { 
+			background:linear-gradient(98deg,$brand-primary 1.18%, $brand-secondary 100%);
+			padding: 10px;
+			width: 100%;
+			cursor: pointer;
+			border: none;
+			border-radius: 5px;
+			color: white; 
+			text-align: center;
+		}
+	}
+	&_bottom {
+		margin-top: 20px;
+		display: grid;
+		position: relative;
+		place-items: center;
+		color: white;
+
+		img { @include size(80%, 240px); object-fit: cover; }
+		.TopT { position: absolute; top: 0; }
+		.BotT { position: absolute; bottom: 0; }
+	}
+}

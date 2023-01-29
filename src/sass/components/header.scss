@@ -1,0 +1,17 @@
+.header {
+	background: linear-gradient(98deg, $brand-primary 1.18%, $brand-secondary 100%);
+	color: white;
+	padding: 10px 20px;	
+	display: flex;
+	align-items: center;
+	img { @include size(50px, 50px); margin-right: 5px;}	
+}
+
+.footer {
+	background: linear-gradient(98deg, $brand-primary 1.18%, $brand-secondary 100%);
+	color: white;
+	padding: 15px 0;	
+	display: grid;
+	place-items: center;
+	bottom: 0;	
+}

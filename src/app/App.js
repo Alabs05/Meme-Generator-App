@@ -1,0 +1,1 @@
+import React from "react";import {Header, Home, Footer} from "../components";function App() {  return (    <div className="app">      <Header />      <div className="appbody">      	<Home />      </div>      <Footer />    </div>  );}export default App;
